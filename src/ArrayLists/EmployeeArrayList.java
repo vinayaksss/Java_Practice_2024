@@ -14,7 +14,6 @@ public class EmployeeArrayList {
 		emplist.add(new Employee("Craack",450000,"Rcs"));
 		emplist.add(new Employee("Arock",390000,"che"));
 		//
-		
 		Collections.sort(emplist, new mySort());
 		System.out.println(emplist);
 	}

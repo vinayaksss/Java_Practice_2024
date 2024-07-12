@@ -6,8 +6,9 @@ public class missingNumber {
 		
 		int a[]= {1,2,3,5};
 		int n=a.length+1;
+		System.out.println(n);
 		int sum=0;
-		int expectedSum = n * (n + 1) / 2;
+		int expectedSum = n * (n + 1) / 2; 
 		
 		//sysout
 		for(int i=0;i<a.length;i++) {

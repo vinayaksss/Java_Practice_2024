@@ -9,7 +9,7 @@ public class classPublic_A {//anywhere
 	
 	void m2() {
 		
-		System.out.println("Accessible within the same package");
+		System.out.println("default Accessible within the same package");
 	}
 
 	

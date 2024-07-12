@@ -28,8 +28,9 @@ public class duplicatechar {
      
 
 	}
+		
 		 for (HashMap.Entry<Character, Integer> entry : hm.entrySet()) {
-	          if (entry.getValue() > 1) {
+	          if (entry.getValue() > 0) {
 	              System.out.println(entry.getKey() + " : " + entry.getValue());
 	          }
 	      }

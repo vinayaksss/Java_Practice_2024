@@ -6,6 +6,7 @@ public class Construct_1 {
 	
 	//Constructor does'n have return type
 	Construct_1(int a, int b){
+		
 		this.c=a+b;
 		System.out.println("I am default constructor"+c);
 		

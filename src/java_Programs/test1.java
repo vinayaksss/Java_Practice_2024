@@ -6,6 +6,10 @@ public class test1 {
 	
 	int arr[]= {2,3,4,5,6,3,2,5};
 	
+	
+	int fist=arr[0];
+	int last=arr[arr.length-1];
+	//System.out.println("last "+fist);
 	//System.out.println(arr.length);
 	
 	for(int i=0;i<arr.length;i++) {

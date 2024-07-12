@@ -6,11 +6,11 @@ Default Constructor: A constructor with no parameters.
 Parameterized Constructor: A constructor with parameters.
 Copy Constructor (Not a standard Java feature but can be implemented).
 
-
 Can a constructor be private?
 
 Yes, a constructor can be private. This is often used in the Singleton design pattern
 
 The this keyword is used to refer to the current instance of the class. It is often used to resolve naming 
 conflicts between instance variables and parameters.
-Yes, you can call one constructor from another in the same class using this()
+
+Yes, you can call one constructor from another in the same class using this();

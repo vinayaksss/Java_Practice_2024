@@ -3,18 +3,21 @@ package java_Programs;
 public class SumOfArray {
 
 	public static void main(String[] args) {
+	
+		int n=121;
+		int rev=0;
+		int temp=n;
 		
-		
-		int a[]= {1,4,6,7,8,9};
-		int sum=0;
-		for(int i=0;i<a.length;i++) {
+		while(temp>0) {
 			
-			sum=sum+a[i];
+			int lastdig=temp%10;
+			rev=rev*10+lastdig;
+			temp=temp/10;
+			
 		}
 		
-		System.out.println(sum);
+		System.out.println(rev);
+		
 	}
-
-
 
 }
