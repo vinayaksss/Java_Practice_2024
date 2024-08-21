@@ -35,7 +35,8 @@ public class AList1 {
 	
 	//basic loop with Iterator
 	
-	for(Iterator itt=al.iterator();itt.hasNext();) {
+	for(Iterator itt=al.iterator();itt.hasNext();)
+	{
 		System.out.println("Basic loop with Iterator "+itt.next());
 		
 	}

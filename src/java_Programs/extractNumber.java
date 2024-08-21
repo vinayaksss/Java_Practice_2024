@@ -8,7 +8,7 @@ public class extractNumber {
 		
 		String str="jksda3432k*mkljl#%k";
 		
-		String str1=str.replaceAll("[^0-9]","");
+		String str1=str.replaceAll("[0-9]","");
 		//[a-zA-Z0-9 ]
 		
 		System.out.println(str1);

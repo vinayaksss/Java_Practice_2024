@@ -5,9 +5,7 @@ public class pra {
 	private String name;
 	
 	private int age;
-	
-	
-
+		
 	public pra(String name, int age) {
 		super();
 		this.name = name;

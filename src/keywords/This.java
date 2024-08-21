@@ -1,7 +1,9 @@
 package keywords;
 
 public class This {
-	
+	int n=0;//this keyword always points instance variable 
+	//this keyword used to cll the constructor 
+	//To pass current object as a parameter
 	private static String name="vinayak";
 	
 	private This() {
@@ -10,6 +12,7 @@ public class This {
 	
 	private This(int a) {
 		this();
+		this.n=10;
 		System.out.println("A value is "+a);
 		
 	}
@@ -20,7 +23,7 @@ public class This {
 	
 	{	
 		name="Sonar";
-		System.out.println("Name is "+name);
+		System.out.println("Name is using this "+name);
 	}
 
 	public static void main(String[] args) {

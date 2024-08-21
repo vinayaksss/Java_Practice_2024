@@ -3,12 +3,10 @@ package java_Programs;
 import java.util.Arrays;
 
 public class ArraysZero {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		//int array[]= {1,0,0,4};
-		
-		
+				
 		int array[]= {3,0,7,0,4,0};
 		
 		int n=array.length;
@@ -26,13 +24,7 @@ public class ArraysZero {
 				array[nz]=temp;
 				
 				nz++;
-				
-				
-				
 			}
-			
-			
-			
 		}
 		System.out.println(Arrays.toString(array));
 		 

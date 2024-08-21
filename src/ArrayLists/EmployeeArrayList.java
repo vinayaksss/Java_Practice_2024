@@ -16,6 +16,7 @@ public class EmployeeArrayList {
 		//
 		Collections.sort(emplist, new mySort());
 		System.out.println(emplist);
+		Collections.sort(emplist,new mySort());
 	}
 }
 	class mySort implements Comparator<Employee>{
@@ -25,6 +26,7 @@ public class EmployeeArrayList {
 			//return o1.getName().compareTo(o2.getName());
 			
 			return o1.getSalary()-o2.getSalary();
+			
 			
 	
 	

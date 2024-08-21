@@ -4,7 +4,7 @@ public class missingNumber {
 
 	public static void main(String[] args) {
 		
-		int a[]= {1,2,3,5};
+		int a[]= {11,12,13,15};
 		int n=a.length+1;
 		System.out.println(n);
 		int sum=0;

@@ -1,11 +1,14 @@
 package java_Programs;
 
+import java.util.Arrays;
+
 public class BinarySearch {
 
 	public static void main(String[] args) {
 		
-		int a[]= {1,2,3,4,5,6,7,8,9,10};
-		int key=50;
+		int a[]= {1,2,3,4,5,6,8,7,9,10};
+		Arrays.sort(a);
+		int key=5;
 		boolean flag=false;
 		int l=0;
 		int h=a.length-1;
@@ -32,6 +35,7 @@ public class BinarySearch {
 				h=m-1;
 			}
 		}
+		
 	if(flag==false) {
 		System.out.println("Elemets Not Found");
 	}

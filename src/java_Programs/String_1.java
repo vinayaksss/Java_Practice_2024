@@ -6,7 +6,7 @@ public class String_1 {
 		
 		
 		String str="A1B2C3D4";
-		
+		int count=0;
 		StringBuffer letter=new StringBuffer();
 		StringBuffer dig=new StringBuffer();
 		
@@ -17,6 +17,7 @@ public class String_1 {
 		if(Character.isLetter(ch)) {
 			
 			letter.append(ch);
+			count++;
 		}
 		
 		else if(Character.isDigit(ch)) {
@@ -28,7 +29,7 @@ public class String_1 {
 			
 		}
 	
-		
+		System.out.println(count);
 		System.out.println(letter+""+dig);
 
 	}

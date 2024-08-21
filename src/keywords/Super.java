@@ -6,6 +6,7 @@ class C{
 	
 	//using super keyword from constructor only we call super class constructor
 	C(){
+		
 		System.out.println("\"C is Super Class constructor for A\"");
 	}
 	void m1() {
@@ -14,12 +15,13 @@ class C{
 	
 }
 
-class A{
+class A extends C{
 	int a=30;
 	
 	A(){
 		super();
-		System.out.println("\"A is Super Class constructor for B\"");
+		//System.out.println("\"A is Super Class constructor for B\"");
+	super.a=10;	
 	}
 	
 	

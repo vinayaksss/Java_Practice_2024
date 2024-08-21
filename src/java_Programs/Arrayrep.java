@@ -14,6 +14,7 @@ public class Arrayrep {
 				if(a[i]==a[j]) {
 					
 					System.out.println(a[j]);
+					
 				}
 			}
 		}
